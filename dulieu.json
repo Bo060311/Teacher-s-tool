@@ -1,0 +1,14 @@
+{
+    "user": [
+        {
+            "username": "bb",
+            "password": "1",
+            "class": []
+        },
+        {
+            "username": "bb2",
+            "password": "2",
+            "class": []
+        }
+    ]
+}

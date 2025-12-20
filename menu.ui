@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenu</class>
+ <widget class="QMainWindow" name="MainMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1150</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Menu Chính</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background: #0f172a;
+    color: white;
+    font: 10pt;
+}
+
+QGroupBox {
+    background: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+QGroupBox::title {
+    color: white;
+    padding-left: 10px;
+}
+
+QPushButton {
+    background: #1d4ed8;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+QPushButton:hover {
+    background: #2563eb;
+}
+
+QPushButton:pressed {
+    background: #1e40af;
+}
+
+QLineEdit, QSpinBox {
+    background: #020617;
+    border: 1px solid #1f2937;
+    border-radius: 6px;
+    color: white;
+    padding: 6px;
+}
+
+QTableWidget {
+    background: #020617;
+    border-radius: 10px;
+    gridline-color: #1f2937;
+}
+
+QHeaderView::section {
+    background: #111827;
+    color: white;
+    padding: 6px;
+    border: 0;
+}
+
+QPushButton#seat1, QPushButton#seat2, QPushButton#seat3,
+QPushButton#seat4, QPushButton#seat5 {
+    background: #020617;
+    border: 1px solid #1f2937;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="mainLayout">
+    <item>
+     <layout class="QVBoxLayout">
+      <item>
+       <layout class="QHBoxLayout">
+        <item>
+         <widget class="QGroupBox" name="groupbox">
+          <property name="title">
+           <string>Chọn số ngẫu nhiên</string>
+          </property>
+          <layout class="QVBoxLayout">
+           <item>
+            <widget class="QLabel" name="rd_out">
+             <property name="text">
+              <string>42</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="rdnum">
+             <property name="text">
+              <string>Tạo số mới</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="timeBox">
+          <property name="title">
+           <string>Thời gian hiện tại</string>
+          </property>
+          <widget class="QLabel" name="time">
+           <property name="geometry">
+            <rect>
+             <x>17</x>
+             <y>50</y>
+             <width>161</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="date">
+           <property name="geometry">
+            <rect>
+             <x>17</x>
+             <y>70</y>
+             <width>171</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="logout">
+           <property name="geometry">
+            <rect>
+             <x>446</x>
+             <y>30</y>
+             <width>101</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Đăng xuất</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupClass">
+        <property name="title">
+         <string>Danh sách lớp</string>
+        </property>
+        <layout class="QVBoxLayout">
+         <item>
+          <layout class="QHBoxLayout">
+           <item>
+            <widget class="QLineEdit" name="lop">
+             <property name="placeholderText">
+              <string>Nhập tên lớp...</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="spinBoxSiSo">
+             <property name="minimum">
+              <number>1</number>
+             </property>
+             <property name="maximum">
+              <number>60</number>
+             </property>
+             <property name="value">
+              <number>45</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="update">
+             <property name="text">
+              <string>Đặt</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="save">
+           <property name="text">
+            <string>Lưu danh sách </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="load_ds">
+           <property name="text">
+            <string>Tải danh sách(lần trước nhập)</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTableWidget" name="tableHocSinh">
+           <property name="rowCount">
+            <number>5</number>
+           </property>
+           <property name="columnCount">
+            <number>4</number>
+           </property>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <column>
+            <property name="text">
+             <string>STT</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Họ và Tên</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Ngày sinh</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Lớp</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

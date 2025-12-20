@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SignupWindow</class>
+ <widget class="QMainWindow" name="SignupWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>468</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Đăng ký</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">
+     QWidget{
+        background:#0f172a;
+        color:white;
+        font:12pt &quot;Segoe UI&quot;;
+     }
+     QLineEdit{
+        background:#020617;
+        border:1px solid #334155;
+        border-radius:6px;
+        padding:8px;
+        color:white;
+     }
+     QPushButton{
+        border-radius:6px;
+        padding:10px;
+     }
+     #btnSignup{
+        background:#2563eb;
+     }
+     #btnGoogle{
+        background:#111827;
+        border:1px solid #374151;
+     }
+    </string>
+   </property>
+   <layout class="QVBoxLayout">
+    <item>
+     <spacer>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>120</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QVBoxLayout">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string>font-size:40px;</string>
+        </property>
+        <property name="text">
+         <string>🧠</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string>font-size:22px;font-weight:600;</string>
+        </property>
+        <property name="text">
+         <string>Đăng ký</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string>color:#9ca3af;</string>
+        </property>
+        <property name="text">
+         <string>Tạo tài khoản và quản lí lớp học</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="minimumSize">
+         <size>
+          <width>420</width>
+          <height>320</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>450</width>
+          <height>450</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string>
+           QFrame{
+            background:#020617;
+            border:1px solid #1f2937;
+            border-radius:12px;
+           }
+          </string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <layout class="QVBoxLayout">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Tên giáo viên</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="name1">
+           <property name="placeholderText">
+            <string>Ví dụ: Lò Văn Tùng</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Mật khẩu</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="pass1">
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Xác nhận mật khẩu</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="pass_confirm">
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="signup">
+           <property name="text">
+            <string>Đăng ký</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="had">
+        <property name="text">
+         <string>Đã có tài khoản? Đăng nhập</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
