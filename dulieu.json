@@ -3,12 +3,92 @@
         {
             "username": "bb",
             "password": "1",
-            "class": []
+            "class": [
+                [
+                    "1",
+                    "Ha Gia Bao",
+                    "",
+                    ""
+                ],
+                [
+                    "2",
+                    "Du Minh Triet",
+                    "",
+                    ""
+                ],
+                [
+                    "3",
+                    "Binh Mindx",
+                    "",
+                    ""
+                ],
+                [
+                    "4",
+                    "Ly Anh Hien",
+                    "",
+                    ""
+                ],
+                [
+                    "5",
+                    "Le Trung Tin",
+                    "",
+                    ""
+                ]
+            ]
         },
         {
             "username": "bb2",
             "password": "2",
             "class": []
+        },
+        {
+            "username": "Hà Gia Bảo",
+            "password": "BOO060311",
+            "class": [
+                [
+                    "1",
+                    "Lý Anh Hiển",
+                    "Unknown",
+                    "Unknown"
+                ],
+                [
+                    "2",
+                    "",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "username": "Lò Văn Tùng",
+            "password": "tunglo917",
+            "class": [
+                [
+                    "1",
+                    "Hà Gia Bảo",
+                    "6/3/2011",
+                    "9.13"
+                ],
+                [
+                    "2",
+                    "Nguyễn Quốc Bảo Minh",
+                    "unknown",
+                    "9.13"
+                ],
+                [
+                    "3",
+                    "Bùi Gia Phúc",
+                    "unknown",
+                    "9.13"
+                ],
+                [
+                    "4",
+                    "Ninh Minh Thành",
+                    "unknown",
+                    "9.13"
+                ]
+            ],
+            "hs_cc": 3
         }
     ]
 }
