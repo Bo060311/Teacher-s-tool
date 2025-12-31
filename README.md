@@ -1,2 +1,2 @@
-🥳Phát hành bản tiếp theo(Alpha) để mọi người có thể trải nghiệm và đánh giá🥳
-Bản chính thức sẽ phát hành vào ngày 30/12/2025(Hiện tại sẽ có khả năng phát hành sớm vì đồng chí này còn phải đi học)
+Mình có tin buồn đây, hiện tại thằng dev này bị ốm sốt liệt giường nên thòi gian sẽ lùi tầm vài ngày
+Mong mọi người thông cảm, dù sao thì tui cũng buồn vì không giữ được lời hứa
